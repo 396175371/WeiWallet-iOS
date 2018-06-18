@@ -105,6 +105,7 @@
 		AE61468F2088FA3E00A9E77A /* DialogPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE61468E2088FA3E00A9E77A /* DialogPresentationController.swift */; };
 		AE8C9FC6209EF85F00C616E1 /* DebugListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8C9FC5209EF85F00C616E1 /* DebugListViewController.swift */; };
 		AE8C9FC8209EF87300C616E1 /* DebugListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8C9FC7209EF87300C616E1 /* DebugListViewController.storyboard */; };
+		AE979E7E20D7A6B3009B353F /* Fiat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE979E7D20D7A6B2009B353F /* Fiat.swift */; };
 		AEC36ADA20C538EF00FE4737 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC36AD820C538EF00FE4737 /* RealmSwift.framework */; };
 		AEC36ADB20C538EF00FE4737 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC36AD920C538EF00FE4737 /* Realm.framework */; };
 		AEC36ADD20C5851E00FE4737 /* LocalTransactionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC36ADC20C5851E00FE4737 /* LocalTransactionRepository.swift */; };
@@ -288,6 +289,7 @@
 		AE61468E2088FA3E00A9E77A /* DialogPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogPresentationController.swift; sourceTree = "<group>"; };
 		AE8C9FC5209EF85F00C616E1 /* DebugListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugListViewController.swift; sourceTree = "<group>"; };
 		AE8C9FC7209EF87300C616E1 /* DebugListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DebugListViewController.storyboard; sourceTree = "<group>"; };
+		AE979E7D20D7A6B2009B353F /* Fiat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fiat.swift; sourceTree = "<group>"; };
 		AEC36AD820C538EF00FE4737 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		AEC36AD920C538EF00FE4737 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		AEC36ADC20C5851E00FE4737 /* LocalTransactionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTransactionRepository.swift; sourceTree = "<group>"; };
@@ -419,6 +421,7 @@
 				DE9133C520AEFE78003CDE67 /* MnemonicWord.swift */,
 				AEC36AE020C58A9800FE4737 /* LocalTransaction.swift */,
 				AE43C3A120D0E45A0050BDDE /* LocaleLanguage.swift */,
+				AE979E7D20D7A6B2009B353F /* Fiat.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1270,6 +1273,7 @@
 				1AEA0A8F20596B2F0068C2E1 /* ViewModelAssembly.swift in Sources */,
 				1A798C092081DF4E00812D80 /* LatestTransactionListViewModel.swift in Sources */,
 				1A798C052081DE8700812D80 /* InputAppliable.swift in Sources */,
+				AE979E7E20D7A6B3009B353F /* Fiat.swift in Sources */,
 				1A3BD8FA205C042600FE485D /* Action.swift in Sources */,
 				DE7682DC207F3C28004094BA /* SettingViewController.swift in Sources */,
 				1AEA0A8C205969350068C2E1 /* UIViewController+Rx.swift in Sources */,

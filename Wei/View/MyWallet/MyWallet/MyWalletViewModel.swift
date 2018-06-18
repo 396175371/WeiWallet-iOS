@@ -36,7 +36,7 @@ final class MyWalletViewModel: InjectableViewModel {
     
     struct Output {
         let etherBalance: Driver<Balance>
-        let fiatBalance: Driver<Double>
+        let fiatBalance: Driver<Fiat>
         let error: Driver<Error>
         let currency: Driver<Currency>
         let presentSendViewController: Driver<Void>

@@ -20,8 +20,8 @@ extension Balance {
         return Converter.toYen(ether: ether, rate: rate)
     }
     
-    func calculateFiatBalance(rate: Price) -> String {
-        let fiatBalance = ether * BDouble(rate.price)!
+    func calculateFiatBalance(fiatRate: Fiat) -> Fiat {
+        let fiatBalance = ether * BDouble(fiatRate.value)
         return fiatBalance.decimalExpansion(precisionAfterComma: 2)
     }
 }
